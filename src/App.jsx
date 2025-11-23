@@ -1,5 +1,3 @@
-# 替换 App.jsx 文件内容
-cat > src/App.jsx << "EOF"
 import React, { useState } from 'react'
 import './App.css'
 
@@ -81,4 +79,3 @@ function App() {
 }
 
 export default App
-EOF
